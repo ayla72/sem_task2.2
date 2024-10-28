@@ -1,0 +1,27 @@
+Key Findings:
+
+1. Total RNA Count (`nCount_RNA`):
+   - Mean: Alzheimer's subjects have a significantly lower mean RNA count (`3153.81`) compared to normal subjects (`5539.91`). This indicates that cells in Alzheimer's subjects generally produce fewer RNA molecules, which could reflect reduced transcriptional activity.
+   - Standard Deviation: The standard deviation is also lower in Alzheimer's subjects (`2020.38`) than in normal subjects (`3578.74`), suggesting less variability in RNA production among Alzheimer's cells.
+
+2. RNA Feature Count (`nFeature_RNA`):
+   - Mean: Alzheimer's subjects also show a lower mean `nFeature_RNA` (`1715.55`) compared to normal subjects (`2501.75`), suggesting a reduction in RNA diversity. This reduction could indicate a narrowed range of gene expression, potentially impacting cellular function in Alzheimer's.
+   - Range: The minimum RNA feature count is similar across both groups, but the average diversity is notably lower in Alzheimer's, suggesting that specific transcripts may be missing or underexpressed.
+
+3. Mitochondrial Percentage (`percent.mt`):
+   - Mean: Mitochondrial content, measured by `percent.mt`, is slightly higher in Alzheimer's subjects (`3.95%`) than in normal subjects (`3.48%`). This increase could indicate greater reliance on or stress in mitochondrial processes, often associated with cellular stress and aging.
+
+4. SCT Counts and Features (`nCount_SCT` and `nFeature_SCT`):
+   - Mean: Both `nCount_SCT` and `nFeature_SCT` values are lower in Alzheimer's subjects, with `nCount_SCT` averaging `2827.81` compared to `5244.07` in normal subjects, and `nFeature_SCT` at `1604.22` compared to `2457.16`. This reduction further supports the trend of decreased transcriptional activity and feature diversity in Alzheimer's.
+
+5. Exon Counts and Features (`nCount_Exon` and `nFeature_Exon`):
+   - Mean: Alzheimer's subjects show lower exon counts (`1588.50`) and feature diversity (`969.75`) compared to normal subjects (`2101.61` for exon counts and `1313.46` for exon features). Exon counts are essential for coding regions, so this reduction may correlate with decreased protein synthesis capabilities in Alzheimer's cells.
+
+Insights
+These generally lower gene expression, reduced RNA diversity, and somewhat higher mitochondrial content in Alzheimer's subjects suggest a transcriptionally suppressed state of the cells, a limited diversity in gene expression, and signs of cellular stress. This reduction in RNA and exon diversity is important as it impacts the capability to make a range of proteins important for normal function. In neurons, such conformational constraints may lead to the disruption of synaptic maintenance and plasticity, which further leads to the deterioration of cognitive abilities in Alzheimer's patients.
+
+Accordingly, the higher mitochondrial content (`percent.mt`) probably is an adaptation to the stressful situation-developments of cells, increasing mitochondrial activity with a view to satisfying the metabolic demand. However, sad as it may seem, over-reliance on mitochondrial processes raises oxidative stress, which has been associated with cellular damage in Alzheimer's. With mitochondria producing more reactive oxygen species under stress conditions, this can further impede the process of gene expression and further compromise cellular function.
+
+These findings are in tune with the current literature on Alzheimer's disease, in which the neurons of the affected individuals often showed restricted profiles of gene expression and signs of cellular stress. Possibly, the restricted diversity of the transcriptome is a cellular adaptation resistance to chronic stress, favoring only the core functions at the expense of cellular resilience.
+
+Further research into specific genes over- or under-expressed in the cells of an Alzheimer's patient might unravel conclusive therapeutic targets. Identifying such repressed or overexpressed genes could provide treatments toward the restoration of cellular balance, perhaps improving resilience and slowing development of Alzheimer's by directly targeting the transcriptome.
